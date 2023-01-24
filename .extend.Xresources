@@ -1,0 +1,105 @@
+URxvt.internalBorder: 6
+
+
+! color scheme
+!
+! special
+*.foreground:    #A9B1D6
+*.background:    #1A1B26
+*.cursorColor:   #A9B1D6
+*.highlightColor:#3A3F4B
+
+!*fading:                  40
+!*fadeColor:               S_base03
+!*pointerColorBackground:  S_base01
+!*pointerColorForeground:  S_base1
+
+! Normal      Bright
+! --------    -------
+! 0 Black      8 Black
+! 1 Red        9 Red
+! 2 Yellow    10 Yellow
+! 3 Green     11 Green
+! 4 Blue      12 Blue
+! 5 Magenta   13 Magenta
+! 6 Cyan      14 Cyan
+! 7 White     15 White
+
+! Black colours
+*.color0:        #1A1B26
+*.color8:        #4E5173
+
+! Red colours
+*.color1:        #F7768E
+*.color9:        #E06C75
+
+! Yellow colours\ This is the right call
+*.color2:        #9ECE6A
+*.color10:       #98C379
+
+! Green colours\ This is the right call
+*.color3:        #E0AF68
+*.color11:       #D19A66
+
+! Blue colours
+*.color4:        #7AA2F7
+*.color12:       #61AFEF
+
+! Magenta (pink, !green) colours
+*.color5:        #9A7ECC
+*.color13:       #C678DD
+
+! Cyan (blue + green)
+*.color6:        #4ABAAF
+*.color14:       #56B6C2
+
+! White colours
+*.color7:        #ACB0D0
+*.color15:       #ABB2BF
+
+
+
+Xcursor.theme: Breeze
+Xcursor.size:  0
+
+XTerm*background: #6aa7a5
+XTerm*foreground: #6aa7a5
+XTerm*reverseVideo: on
+!XTerm*faceName: Terminus:size=11:antialias=true
+!XTerm*faceName: InconsolataRegular:size=11:antialias=true
+XTerm*faceName: HackRegular:size=11:antialias=true
+XTerm*selectToClipboard: true
+
+!URxvt.font: xft:Hack:size=10
+URxvt.font: xft:monofur:size=12
+URxvt.geometry: 80x20
+URxvt.depth: 32
+URxvt.background:	[100]#1e1e20
+URxvt*scrollBar:                      false
+URxvt*mouseWheelScrollPage:           false
+URxvt*cursorBlink:                    true
+!URxvt*.background:   		      #1e1e20
+URxvt*.foreground: 		      #c5c8c6
+URxvt*cursorColor:		      #c5c8c6
+URxvt*saveLines:                      5000
+! ROFI SETUP HERE !
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+!                  bg       border   separator
+rofi.color-window: #1e1e20, #274850, #274850
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #1e1e20, #c5c8c6, #1e1e20, #1e1e20, #274850
+rofi.color-active: #1e1e20, #c5c8c6, #1e1e20, #1e1e20, #274850
+rofi.color-urgent: #1e1e20, #c5c8c6, #1e1e20, #1e1e20, #274850
+
+rofi.separator-style: solid
+rofi.sidebar-mode: false
+rofi.lines: 5
+!rofi.font: Hack Regular 12
+rofi.font: monofur 13
+rofi.bw: 1
+rofi.columns: 2
+rofi.padding: 5
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
