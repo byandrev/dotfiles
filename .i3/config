@@ -5,7 +5,7 @@ default_floating_border normal
 
 hide_edge_borders none
 
-font xft:Mononoki 11
+font xft:BlexMono NF 11
 
 floating_modifier $mod
 
@@ -30,8 +30,8 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 ################################################################################################
 
 # Screen brightness controls
-# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
-# bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+bindsym Ctrl+F3 exec "brightnessctl set +10%; notify-send 'brightness up'"
+bindsym Ctrl+F2 exec "brightnessctl set 10%-; notify-send 'brightness down'"
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
