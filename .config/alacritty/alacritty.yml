@@ -24,9 +24,11 @@ scrolling:
 font:
   normal:
     family: BlexMono NF
+    # family: Mononoki NF
     style: Regular
   bold:
     family: BlexMono NF
+    # family: Mononoki NF
     style: Bold
 
   size: 13

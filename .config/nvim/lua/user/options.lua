@@ -22,5 +22,6 @@ vim.opt.colorcolumn = "80"
 vim.o.splitbelow = true  -- automagically h split going down
 vim.o.splitright = true -- automagically v split going right
 vim.o.list = true
+vim.charset = 'utf-8'
 
 vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
