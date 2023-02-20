@@ -1,5 +1,6 @@
 env:
   TERM: xterm-256color
+  deta: /home/byandrev/.deta/bin/deta
 
 window:
   padding:
@@ -8,7 +9,7 @@ window:
 
   dynamic_padding: false
 
-  opacity: 0.9
+  opacity: 0.6
 
     #decorations: 
 
@@ -23,12 +24,16 @@ scrolling:
 
 font:
   normal:
-    family: BlexMono NF
+    # family: BlexMono NF
+    # family: agave NF
     # family: Mononoki NF
+    family: JetbrainsMono NF
     style: Regular
   bold:
-    family: BlexMono NF
+    # family: BlexMono NF
+    # family: agave NF
     # family: Mononoki NF
+    family: JetbrainsMono NF
     style: Bold
 
   size: 13
