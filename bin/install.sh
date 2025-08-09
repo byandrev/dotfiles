@@ -21,7 +21,7 @@ makepkg -si
 
 # Install hyprland tools
 paru -S --noconfirm --needed walker-bin waybar hyprlock hyprshot hypridle \
-  polkit-gnome mako satty slurp \
+  polkit-gnome mako satty slurp hyprland-qtutils swaybg swayosd \
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 
 # Bluetooth
@@ -32,7 +32,7 @@ sudo systemctl enable --now bluetooth.service
 sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-emoji ttf-dejavu ttf-jetbrains-mono noto-fonts-extra
 
 # Desktop Tools
-sudo pacman -S brightnessctl playerctl vlc fcitx5 fcitx5-gtk fcitx5-qt
+sudo pacman -S brightnessctl playerctl vlc fcitx5 fcitx5-gtk fcitx5-qt wiremix
 
 # Customization
 paru -S --noconfirm --needed kvantum-qt5

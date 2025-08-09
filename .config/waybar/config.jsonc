@@ -5,7 +5,7 @@
 
   "modules-left": ["hyprland/workspaces"],
   "modules-center": [],
-  "modules-right": ["tray", "clock", "custom/power"],
+  "modules-right": ["tray", "clock", "custom/restart", "custom/power"],
 
   "tray": {
     "spacing": 5
@@ -26,12 +26,21 @@
     "format": "{:>%I:%M:%S \n %m/%d/%y}",
     "interval": 1,
     "align": 1,
-    "justify": "right"
+    "justify": "right",
+    "spacing": 5
+  },
+
+  "custom/restart": {
+    "format": "󰜉",
+    "tooltip": "Restart",
+    "on-click": "reboot",
+    "spacing": 5
   },
 
   "custom/power": {
     "format": "⏻",
     "tooltip": "Power Off",
-    "on-click": "poweroff"
+    "on-click": "poweroff",
+    "spacing": 5
   }
 }
