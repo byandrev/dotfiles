@@ -1,0 +1,60 @@
+* {
+  /* font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+  font-family: "Noto Sans", sans-serif;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 12.7px;
+}
+
+window#waybar {
+  background-color: #1e1e1e;
+  color: #8a8a8d;
+
+  padding: 0 5px;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.modules-right {
+  padding: 0 10px;
+}
+
+#clock {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* #custom-power { */
+/*   font-size: 15px; */
+/*   margin-left: 10px; */
+/*   margin-right: 10px; */
+/* } */
+
+#taskbar button {
+  min-width: 175px;
+
+  border-radius: 0;
+  border-bottom: 3px solid #969696;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
+}
+
+#taskbar button.active {
+  border-bottom: 3px solid #333333;
+}
+
+#workspaces button {
+  border-bottom: 3px solid #969696;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
+}
+
+#workspaces button.active {
+  border-bottom: 3px solid #333333;
+}

@@ -1,0 +1,7 @@
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[user]
+	name = Andres Parra
+	email = byandrev@gmail.com
