@@ -75,3 +75,10 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 # Flatpak
 sudo pacman -S flatpak
+
+# Apps
+paru -S obs-studio kdenlive localsend-bin libreoffice spotify pinta
+
+flatpak install flathub com.github.tchx84.Flatseal
+flatpak install flathub org.mozilla.Thunderbird
+flatpak install flathub com.librumreader.librum
