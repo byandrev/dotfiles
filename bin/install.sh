@@ -29,10 +29,11 @@ paru -S --noconfirm --needed blueberry
 sudo systemctl enable --now bluetooth.service
 
 # Fonts
-sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-emoji ttf-dejavu ttf-jetbrains-mono noto-fonts-extra
+sudo pacman -S ttf-font-awesome noto-fonts noto-fonts-emoji ttf-dejavu ttf-jetbrains-mono noto-fonts-extra ttf-jetbrains-mono-nerd
 
 # Desktop Tools
 sudo pacman -S brightnessctl playerctl vlc fcitx5 fcitx5-gtk fcitx5-qt wiremix
+paru -S --noconfirm --needed wlogout
 
 # Customization
 paru -S --noconfirm --needed kvantum-qt5
