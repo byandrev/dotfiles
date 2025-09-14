@@ -5,3 +5,5 @@
 [user]
 	name = Andres Parra
 	email = byandrev@gmail.com
+[core]
+	autocrlf = input
